@@ -12,8 +12,6 @@ class StudentsController < ApplicationController
   end
 
   def create
-    Student.create(params)
-    @student = Student.find(params[:id])
   end
 
 end
